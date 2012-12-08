@@ -9,14 +9,14 @@ endif
 
 " keywords
 syn keyword basicLangKeyword        procedure function return
-syn keyword controlStructureKeyword if else while repeatWith in
+syn keyword controlStructureKeyword if else while repeatWith in case of ->
 " data types
 syn keyword boolean   True False
 syn keyword color     Azul Negro Rojo Verde
 syn keyword direction Norte Este Sur Oeste
 " primitive commands/expressions
-syn keyword primitiveCommand    Poner Sacar Mover
-syn keyword primitiveExpression nroBolitas hayBolitas puedeMover minBool maxBool minColor maxColor minDir MaxDir
+syn keyword primitiveCommand    Poner Sacar Mover BOOM Skip IrAlOrigen VaciarTablero
+syn keyword primitiveExpression nroBolitas hayBolitas puedeMover minBool maxBool minColor maxColor minDir maxDir siguiente previo opuesto
 " comments
 syn match singleLineComment "--.*$"
 syn match singleLineComment "\/\/.*$"
